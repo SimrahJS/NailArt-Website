@@ -1,0 +1,2411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap 5 CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="https://logodix.com/logo/1718635.png">
+
+    <title>NAILUXE</title>
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="css/copy.css">
+    <!-- Light Slider CDN LINK CSS  Plugin -->
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <!-- JQUERY CDN LINK JS  Plugin -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Light Slider CDN LINK JS  Plugin -->
+    <script type="text/javascript" src="js/lightslider.js"></script>
+
+    <!-- Swiper Js Plugin -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--Font-awesome  6.2 CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!--Font-awesome  4.7 CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ScrollUp Plugin Jquery -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+
+
+
+    <style>
+        .navbar {
+            z-index: 99;
+        }
+
+        body {
+            padding-top: 8em;
+        }
+
+        .sliderFade {
+            animation: fade 0.5s ease;
+        }
+
+        .back {
+            background-color: rgb(255, 218, 10);
+            height: 450px;
+        }
+
+
+        #scrollUp {
+            bottom: 20px;
+            right: 20px;
+            /* padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none; */
+            background-image: url("images/top.png");
+            width: 38px;
+            height: 38px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- NAVIGATION BAR -->
+
+
+    <section>
+        <nav class="navbar navaigation navbar-expand-lg navbar-light bg-white position-fixed top-0 start-0 w-100 ">
+            <div class="container">
+                <a class="navbar-brand d-lg-none" href="index.html"><img src="images/logo.png"
+                        width="30px">&nbsp;&nbsp;&nbsp;<b style="font-size: 26px;">NAILUXE</b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent"
+                    style="color: transparent;">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse p-2 flex-column" id="navbarcontent">
+                    <div class="d-flex justify-content-center justify-content-lg-between flex-column flex-lg-row w-100">
+
+                        <!-- search bar -->
+
+                        <form action="" class="d-block pb-2">
+
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fa fa-whatsapp" style="color: green;"></i>
+                            </button>
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fa fa-facebook" style="color: steelblue;"></i>
+                            </button>
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fa fa-instagram" style="color: palevioletred;"></i>
+                            </button>
+
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fa fa-twitter" style="color: rgb(2, 183, 255);"></i>
+                            </button>
+                        </form>
+                        <!-- search bar end -->
+
+                        <a href="#" class="navbar-brand d-none d-lg-block"><img src="favicon.png" width="30px">&nbsp;<b
+                                style="font-size:20px;">NAILUXE</b></a>
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item d-flex align-items-center">
+                                <a href="#" class="nav-link mx-2 "><button class="Book-Appointment">Book
+                                        Appointment</button></a>
+                            </li>
+
+                            <li class="nav-item d-flex align-items-center">
+                                <a href="#" class="navlink mx-2" style="text-decoration: none;color: black;"><i
+                                        class="fa fa-user-o" style="font-size:25px; color:black;"></i></a>
+                            </li>
+                            <!-- <li class="nav-item d-flex align-items-center">
+                                <a href="#" class="nav-link mx-2 "><i class='fas fa-search' 
+                                        style='font-size:25px;color:black;'></i></a>
+                            </li> -->
+
+                        </ul>
+                    </div>
+
+
+                    <div class="d-block w-100 ">
+                        <ul class="navbar-nav d-flex justify-content-center pt-3">
+                            <li class="nav-item mx-2">
+                                <a href="index.html" class="nav-link" style="color: black;">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown mx-2">
+                                <a href="#Naildesign" class="nav-link btn dropdown-toggle" style="color: black;"
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Nail Art Design
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#Halloween"><b>(Halloween) Nail Design</b>
+                                            <br><img
+                                                src="https://static.wixstatic.com/media/fd494b_ebd1eb8abee84cd884ac8063446f2f6c~mv2.jpg/v1/fill/w_84,h_84,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fd494b_ebd1eb8abee84cd884ac8063446f2f6c~mv2.jpg"
+                                                alt="" width="100px" height="60px"></a></li>
+                                    <li><a class="dropdown-item" href="#geometric"><b>(Geometric) Nail Design</b>
+                                            <br><img
+                                                src="https://static.wixstatic.com/media/fd494b_c730988eae3e4e9495fab3bbcecfd400~mv2.jpg/v1/fill/w_84,h_84,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fd494b_c730988eae3e4e9495fab3bbcecfd400~mv2.jpg"
+                                                alt="" width="100px" height="60px"></a></li>
+                                    <li><a class="dropdown-item" href="#floral"><b>(Floral) Nail Design</b><br><img
+                                                src="https://static.wixstatic.com/media/fd494b_38f461fb08cf4176acb1eb1dca83fa3a~mv2.jpg/v1/fill/w_84,h_84,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fd494b_38f461fb08cf4176acb1eb1dca83fa3a~mv2.jpg"
+                                                alt="" width="100px" height="60px"></a></li>
+                                    <li><a class="dropdown-item" href="#ombré"><b>(Ombré) Nail Design</b><br><img
+                                                src="https://static.wixstatic.com/media/fd494b_a5b85474ab3044d3b39dfbf35d75c147~mv2.jpg/v1/fill/w_84,h_84,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fd494b_a5b85474ab3044d3b39dfbf35d75c147~mv2.jpg"
+                                                alt="" width="100px" height="60px"></a></li>
+                                    <li><a class="dropdown-item" href="#Colored"><b>(Colored-Tip) Nail
+                                                Design</b><br><img
+                                                src="https://static.wixstatic.com/media/fd494b_a5b85474ab3044d3b39dfbf35d75c147~mv2.jpg/v1/fill/w_84,h_84,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/fd494b_a5b85474ab3044d3b39dfbf35d75c147~mv2.jpg"
+                                                alt="" width="100px" height="60px"></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item mx-2">
+                                <a href="#Gallery" class="nav-link" style="color: black;">
+                                    Gallery
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="#about" class="nav-link" style="color: black;">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a href="#contactus" class="nav-link" style="color: black;">
+                                    Contact Us
+                                </a>
+
+                            </li>
+
+                            <li class="nav-item mx-2">
+                                <a href="#more-catagoies" class="nav-link" style="color: black;">
+                                    More
+                                </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- NAVIGATION BAR END-->
+
+
+
+    <!-- CAROUSEL SLIDER  -->
+
+
+    <section>
+        <div class="sliderFade swiper mySwiper">
+            <div class="content swiper-wrapper">
+                <div class="slides swiper-slide" style="background-color:rgb(228, 84, 32);">
+                    <img src="images/slider-5.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">Bringing fashion to<br> your fingertips.</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+                <div class="slides swiper-slide" style="background-color:rgb(165, 1, 165);">
+                    <img src="images/slider-1.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">Nails Done Every Time</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+                <div class="slides swiper-slide" style="background-color:rgb(3, 109, 3);">
+                    <img src="images/slider-2.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">Perfect Nails Born<br> & Raised Here</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+                <div class="slides swiper-slide" style="background-color:rgb(192, 3, 66);">
+                    <img src="images/slider-3.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">Light Nail Art</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+                <div class="slides swiper-slide" style="background-color:rgb(202, 14, 14);">
+                    <img src="images/slider-4.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">ENJOY THE BEST <br>NAIL CARE IN NY</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+                <div class="slides swiper-slide" style="background-color:rgb(2, 2, 2);">
+                    <img src="images/slider-6.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">Yhe Professional Best <br>Care For Nails</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+                <div class="slides swiper-slide" style="background-color: rgb(247, 199, 45);">
+                    <img src="images/slider-7.jpg" alt="">
+                    <div class="img_overlay">
+                        <h1 style="font-family:'' ;">Silence is not Enough</h1>
+                        <span></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ea illo, impedit laborum
+                            culpa
+                            consequuntur accusantium aspernatur doloribus? Magnam blanditiis error quam fugiat iusto
+                            minima.
+                            Odio cum officia tenetur eaque.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-btn" style="font-size: 50px;"></div>
+            <div class="swiper-button-prev swiper-btn"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+
+    <!-- CAROUSEL SLIDER END-->
+
+
+    <main>
+        <!-- About Us -->
+
+        <section id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6" style="margin-top: 50px;">
+                        <img src="https://res2.weblium.site/res/618250d1cc14b000221af31b/6188d55fec9edd00235e501c_optimized_1395_c1395x931-0x0?nowebp"
+                            alt="" width="500px" height="600px" class="welcome-image">
+                    </div>
+                    <div class="col-lg-8 col-md-12" style="margin-top: 100px;">
+                        <h1 style="font-family: calibri;"><b>WELLCOME TO <br><img src="images/logo.png" width="30px"
+                                    alt="">&nbsp;NAILUXE</b></h1>
+
+                        <p>Nailuxe is a perfect place to get high-quality nail care and spa services in a clean and
+                            welcoming atmosphere.</p>
+                        <p style="font-family: calibri;">Our licensed nail artists are always aware of the latest trends
+                            and truly care about their clients. We also offer free Wi-Fi, relaxing music, and
+                            complimentary cookies and beverages to make your experience more enjoyable.
+
+                            Join us, and you’ll find yourself surrounded by diverse colleagues from around the globe,
+                            all keen to share their ideas, and listen to yours. Because at Zalando, you really can bring
+                            your whole self to work – or as we say: Come as you are. Wear what you love.<br>
+
+                        </p><br><br>
+                        <p><b><i>Call us now!</i></b></p>
+                        <p><a href="#"><img src="images/telephone.png" width="50px" alt=""
+                                    style="border: 1px solid black; border-radius: 50px; padding: 10px;">&nbsp; &nbsp;+1
+                                (234) 567 89 00</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us -->
+
+
+        <!-- OUR SERVICES SIDE START -->
+
+
+        <section>
+            <div class="container-fluid" style="margin-top: 100px;">
+                <div class="content-service">
+                    <h1 style="font-family: calibri;"><b>OUR SERVICES</b></h1>
+                    <h3><i> Professional Nail Services</i></h3>
+                    <p style="font-family: calibri;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                        accusamus rem excepturi quos
+                        eum
+                        eaque laudantium dicta suscipit. Accusamus, voluptatem dolores in sunt corrupti iste ipsam
+                        laudantium
+                        ducimus excepturi doloremque.</p>
+                    <center> <button class="btn-Book">BOOK NOW &RightArrow;</button></center>
+                </div>
+                <div class="span">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 px-5">
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://trieunails.com/wp-content/uploads/2021/06/Nail-art-1024x683.png"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"
+                                        style="font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px; text-align: center;">
+                                        Nail Enhancement</h5>
+                                    <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://d2zdpiztbgorvt.cloudfront.net/region1/us/690825/biz_photo/8c2075d8f6c940bfa5db0ce59967ec-pedicare-by-rosa-tinta-biz-photo-3ccd22048f534e9998021977b15fa7-booksy.jpeg?size=640x427"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title"
+                                        style="font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px; text-align: center;">
+                                        Pedicures</h5>
+                                    <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://blog.healthians.com/wp-content/uploads/2022/11/manicurist-doing-cleaning-cuticle-female-fingers-scaled.jpg"
+                                    class="card-img-top" alt="..." height="px">
+                                <div class="card-body">
+                                    <h5 class="card-title"
+                                        style="font-family: Brush Script MT, Brush Script Std, cursive; font-size: 40px; text-align: center;">
+                                        Manicures</h5>
+                                    <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <!-- OUR SERVICES SIDE START END-->
+
+
+
+
+        <!-- ART  NAIL ENHANCEMENT -->
+
+
+        <section id="Naildesign">
+            <div class="container-fluid" style="margin-top: 100px;">
+                <h1 style="font-family: calibri;"><b>NAIL ART DESIGN (for Elders & Adult)</b></h1>
+                <h3><i> Professional Nail Services</i></h3>
+                <p style="font-family: calibri;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                    accusamus rem excepturi quos eum
+                    eaque laudantium dicta suscipit. Accusamus, voluptatem dolores in sunt corrupti iste ipsam
+                    laudantium
+                    ducimus excepturi doloremque.</p>
+                <center> <button class="btn-Book">SEE MORE &downarrow;</button></center>
+            </div>
+        </section>
+
+        <!-- Halloween ART  NAIL  CATAGORIES 1-->
+
+
+        <section id="Halloween">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: rgba(88, 88, 88, 0.4)">
+                    <div class="col">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Halloween) Nail Design</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Dip Powder services provide
+                            full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>As we are falling out of summer (see what I did there?!) and into the cool, Autumn weather—we
+                            all know what’s right around the corner. Yes, pumpkin spice lattes, but something even
+                            better—Halloween! Spooky season is the perfect opportunity to reconnect with your inner
+                            child and live out your best costume dreams. Since we’re adults now, you can celebrate the
+                            season not just in costume, but also via your beauty routine. The great thing about
+                            Halloween nails are they are quite easy to DIY (or treat yourself and let you’re nail tech
+                            slay your nails). </p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col dip-powder">
+                        <img src="https://gelous.co/cdn/shop/articles/Blog_7Spooky_HalloweenNailArtIdeas_for2022_Main_600x.jpg?v=1666739310"
+                            alt="" width="500px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color: white; height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white; transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-09-01-at-1-53-43-am-64f13627d357e.png?crop=1xw:1xh;center,top&resize=980:*"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px;">chic Charlotte's web</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-09-01-at-1-59-01-am-64f13765e61c4.png?crop=1xw:1xh;center,top&resize=980:*"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">butterfly mani</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-09-01-at-2-11-06-am-64f13a373b5e6.png?crop=1xw:1xh;center,top&resize=980:*"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#"> cute or frightening Clowning</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/screen-shot-2023-09-01-at-2-18-58-am-64f13c2abe856.png?crop=1.00xw:0.600xh;0,0.282xh&resize=980:*"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Spider Tips</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/bloody-manicure-for-halloween-with-drops-of-blood-royalty-free-image-1661960739.jpg?crop=0.665xw:1.00xh;0.196xw,0&resize=980:*"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Dexter-Approved</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod/images/manicured-female-hands-with-fashion-accessories-royalty-free-image-1661960782.jpg?crop=0.668xw:1.00xh;0.160xw,0&resize=980:*"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">Buy Now</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Drip, Drip, Drip</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;  border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- geometric ART  NAIL CATAGORIES 2 -->
+
+
+        <section id="geometric">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: rgb(186, 130, 238);">
+                    <div class="col">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Geometric) Nail Design</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Dip Powder services provide
+                            full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>A reliance on mathematical shapes such as triangles, squares, circles, and lines to organize
+                            space.Nail Artists be can use geometry to develop a theme, for example, Cubism uses cubes
+                            and Fractal Art uses statistical constants to develop a Nail Art design.</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col dip-powder">
+                        <img src="https://charm-fr.decorexpro.com/wp-content/uploads/2018/01/07620ab80dadf3577fe0a86cac9e29f3.jpg"
+                            alt="" width="500px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color: rgb(219, 192, 243); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white; transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-A-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/564x/b0/c4/05/b0c405950d84ef16f87de77e8587ae0a.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px;">Geometric White design</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://ladylife.style/wp-content/uploads/2017/12/3-6.jpg" alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Geometric winter design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/736x/a6/ab/64/a6ab64c6c6584a9fe2dd7788652b2462.jpg"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Stunning Geometric</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/564x/b8/a4/04/b8a40451e24e1771214f173749168c05.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Spider Tips</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/originals/5a/86/e4/5a86e49111781c6cc32df76b6647f759.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Dexter-Approved</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/564x/1b/2b/91/1b2b9130d12f5ddb49697a91acd7497a.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Drip, Drip, Drip</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;    border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- flower  ART  NAIL  CATAGORIES 3-->
+
+
+        <section id="floral">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: rgb(238, 130, 206);">
+                    <div class="col-lg-4 col-md-12">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Floral) Nail Design</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Flower Nail Art services
+                            provide full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>The flower nail is great when working on flowers as it acts as a mini turntable. Simply grip
+                            the stem of the flower nail between your finger and thumb and twist to move it around. This
+                            will save you time and make things much easier when decorating your sugar flowers.</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 dip-powder">
+                        <img src="https://media.istockphoto.com/id/475371187/photo/nail-art-flower.jpg?s=612x612&w=0&k=20&c=6bNMiilT6JXU66DfQcG6Rp15rVjAYp3DzCwTgz7KJJA="
+                            alt="" width="500px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color:  rgb(248, 197, 233); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white;  transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-B-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://ukbeautyroom.com/wp-content/uploads/2024/02/Easter-Nail-Designs-24.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px;">Slay Floral Nail Art</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://stylesatlife.com/wp-content/uploads/2021/02/Floral-Nail-Art.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">stunning flower art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://sonailicious.com/wp-content/uploads/2018/04/Floral-nail-design-by-@lieve91.jpg"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Stunning Geometric</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/736x/cd/a8/2d/cda82dedd7301c155baeae5d3b8d6953.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">String flower Art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/736x/74/d6/65/74d66550af838af8fb7e54ec9f617b26.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Black Nail art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://www.itakeyou.co.uk/idea/wp-content/uploads/2023/03/spring-nail-art-2.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Drip, Drip, Drip</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;   border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- NAIL ART (Ombré Nails) CATAGORIES 4 -->
+
+
+        <section id="ombré">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: skyblue">
+                    <div class="col">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Ombré) Nail Design</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Ombré Nail services provide
+                            full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>For the perfect ombré nail design, you'll need a wedge makeup sponge and two or three nail
+                            polish colors that will blend seamlessly. Cut the flat edge of the sponge to fit the width
+                            of your nail. Brush the colors across the sponge in straight lines, then gently press the
+                            sponge onto your nail. Seal with top coat and you're done!</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col dip-powder">
+                        <img src="https://thumbs.dreamstime.com/b/close-up-beautiful-woman-s-fingernails-pastel-blue-pink-purple-ombre-colored-nail-color-design-woman-s-fingernails-308546072.jpg"
+                            alt="" width="500px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color: rgb(207, 239, 248); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white;  transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="autoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://thegraydetails.com/wp-content/uploads/2023/05/dip-powder-nails-ombre-gold-edited.png"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: 20px;">Dip Powder</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i1.wp.com/thesohonailspa.com/wp-content/uploads/2020/01/pink-and-white-ombre-nails.png?fit=658%2C674&ssl=1"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Ombre white & Pink</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://cdn.sanity.io/images/bih0fc4m/production/21e960c0d1d96b1e3a96200f120cc961e7977164-2500x1665.jpg?w=700&q=100"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Dip Powder Ombre</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/originals/42/02/62/42026214a271ca16bc9a8caaefaa684b.png"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">DP Ombre with Nail Extension</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://cutediyprojects.com/wp-content/uploads/2023/02/yellow-and-gold-ombre-nails.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Ombre Gel Nails</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://nailsbymaheensahibzada.com/cdn/shop/products/IMG_9419.png?v=1659210208&width=1445"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Hot Pink Omber Nail</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;   border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Colored-Tip  Nails ART   CATAGORIES 5-->
+
+
+        <section id="Colored">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color:rgb(248, 178, 48)">
+                    <div class="col">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Colored-Tip) Nail Design</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Flower Nail Art services
+                            provide full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>Put a twist on the classic French manicure with a fresh color combination. You can start with
+                            a clear base coat or choose a color for a bolder look. After your first layer dries, paint a
+                            contrasting color across the tip of your nail using a thin liner brush. Tip: follow your
+                            nail's free edge to make an even, symmetrical line.</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col dip-powder">
+                        <img src="https://m.media-amazon.com/images/I/71cwEv-BTLL.jpg" alt="" width="500px"
+                            height="355px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color:   rgb(253, 211, 133); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white;  transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-C-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/originals/3e/85/86/3e8586dc370f81fc59b9150244cfb901.png"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px;">French Colored Tip Nail</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://www.bettycora.com/cdn/shop/products/281224183_378191044340697_5860874515508588059_n_1800x1800.jpg?v=1681797352"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">French Colored Tip Nail</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/736x/bd/9b/70/bd9b7051442c22f090c7884df426abe7.jpg"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">French Colored Tip Nail</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/736x/ee/12/ea/ee12ea644184ab470ba547711baa0de8.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Chic French Nail Art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://i.pinimg.com/736x/73/af/0b/73af0bca2d43927260ee006e43d1f43b.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">Pastel Colored French Tip</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <img src="https://media.allure.com/photos/64fb60a61ee89be56bf8f73d/1:1/w_320%2Cc_limit/French%2520manicure%2520Zbobinails.png"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#">French Colored-Tip Nail Design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;  border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Nail art Promo Video Clip -->
+
+        <section>
+            <div class="container-fluid" style="margin-top: 100px;">
+                <div class="slider"
+                    style="position: relative; background-color:rgb(216, 214, 214); border-radius: 50px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                    -->
+                        <li class="item-a">
+                            <div class="box">
+                                <div class="slider-img">
+
+                                    <iframe width="315" height="560"
+                                        src="https://www.youtube.com/embed/1lCw4byrIdk?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=1lCw4byrIdk"
+                                        title="FLOWER NAILART SIMPLE DESIGN SHORT #Shorts #nail #nails #nailart #nailarts"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    <!-- <div class="overlay">
+                                    <a href="#" class="buy-btn">View More</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#" style="font-size: 20px;">Dip Powder</a>
+                                    <span>No fill options</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <iframe width="315" height="560"
+                                        src="https://www.youtube.com/embed/AgpelCwWA94?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=AgpelCwWA94"
+                                        title="CRAZY TOP COAT NAIL ART #shorts #naildesign #nailpolish" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    <!-- <div class="overlay">
+                                    <a href="#" class="buy-btn">View More</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#" style="font-size: 20px;">Dip Powder</a>
+                                    <span>No fill options</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <!-- <img src="slider-1.jpg" alt=""> -->
+
+                                    <iframe
+                                        src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=ZJ3j0XVG95o"
+                                        title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loop></iframe>
+
+                                    <!-- <div class="overlay">
+                                    <a href="#" class="buy-btn">Buy Now</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#">Badded cart</a>
+                                    <span>Noe Arrival</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box">
+                                <div class="slider-img">
+
+                                    <iframe width="315" height="560"
+                                        src="https://www.youtube.com/embed/Groz4cfhEcM?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=Groz4cfhEcM"
+                                        title="French Manicure #naildesign #nailart #reel" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    <!-- <div class="overlay">
+                                    <a href="#" class="buy-btn">Buy Now</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#">Badded cart</a>
+                                    <span>Noe Arrival</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box">
+                                <div class="slider-img">
+
+                                    <iframe width="315" height="560"
+                                        src="https://www.youtube.com/embed/TU6_uwsAbkY?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=TU6_uwsAbkY"
+                                        title="Easy nail design | How to simply print interesting patterns on nails"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    <!-- <div class="overlay">
+                                    <a href="#" class="buy-btn">Buy Now</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#">Badded cart</a>
+                                    <span>Noe Arrival</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box">
+                                <div class="slider-img">
+
+                                    <iframe width="315" height="560"
+                                        src="https://www.youtube.com/embed/JSybzFFGM7M?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=JSybzFFGM7M"
+                                        title="@Merlin Nails  Best long nude pink Glass Glitter Nails ballerina shape | Gel nails by Merlin"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <!--                                 
+                                <div class="overlay">
+                                    <a href="#" class="buy-btn">Buy Now</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#">Badded cart</a>
+                                    <span>Noe Arrival</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               7 product cart box                   -->
+                        <li class="item-g">
+                            <div class="box">
+                                <div class="slider-img">
+                                    <iframe width="315" height="560"
+                                        src="https://www.youtube.com/embed/Vdwsx2Jt45s?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&playsinline=1&rel=0&playlist=Vdwsx2Jt45s"
+                                        title="Nail Art Cute Designs #shorts #nailart #naildesign #nailpolish #nailtutorial"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                                    <!-- <div class="overlay">
+                                    <a href="#" class="buy-btn">Buy Now</a>
+                                </div> -->
+                                </div>
+                                <div class="detail-box">
+                                    <!-- <div class="type">
+                                    <a href="#">Badded cart</a>
+                                    <span>Noe Arrival</span>
+                                </div>
+                                <a href="#" class="price">$23</a> -->
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;   transform: rotate(180deg); border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Nail art Promo Video Clip -->
+
+
+
+        <!--ART NAIL ENHANCEMENT -->
+
+
+
+
+
+        <!--ART NAIL ENHANCEMENT For Kids-->
+
+        <section>
+            <div class="container-fluid" style="margin-top: 100px;">
+                <h1><b>NAIL ART DESIGN (Complex for Kids)</b></h1>
+                <h3><i> Professional Nail Services</i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus rem excepturi quos eum
+                    eaque laudantium dicta suscipit. Accusamus, voluptatem dolores in sunt corrupti iste ipsam
+                    laudantium
+                    ducimus excepturi doloremque.</p>
+                <center> <button class="btn-Book">SEE MORE &downarrow;</button></center>
+            </div>
+        </section>
+
+
+        <!-- cartoon for Kids ART  NAIL  CATAGORIES 1-->
+
+
+        <section id="cartoon">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: palevioletred;">
+                    <div class="col">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Cartoon) Nail Art Design for Kids</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Flower Nail Art services
+                            provide full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>The flower nail is great when working on flowers as it acts as a mini turntable. Simply grip
+                            the stem of the flower nail between your finger and thumb and twist to move it around. This
+                            will save you time and make things much easier when decorating your sugar flowers.</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col dip-powder">
+                        <img src="https://img.over-blog-kiwi.com/0/76/24/77/20150620/ob_f889a1_img-4580.JPG" alt=""
+                            width="500px" height="370px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color:rgb(253, 201, 209); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white;   transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-F-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.etsystatic.com/11155226/r/il/6e9e30/800167798/il_794xN.800167798_t3w2.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Peppa Pig Nail
+                                            design (Kids)</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.pinimg.com/originals/c9/46/b7/c946b75505d33c250aeabbefc405a195.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">powerpuff girls
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://m.media-amazon.com/images/I/91ahkXcsD4L.jpg" alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Mickey Mouse
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.pinimg.com/736x/71/46/f6/7146f6d348d0eec3fb6da3d48cac6501.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Minions Nail
+                                            Design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.pinimg.com/736x/28/e2/6b/28e26bf644d18b66774f4899fa8b5894.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" >
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Pikachu| Nail Art
+                                        </a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://images-na.ssl-images-amazon.com/images/I/51279n0tVkL.jpg" alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;"> Colored-Tip for
+                                            kids</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;  border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!--String Floral for Kids  ART  NAIL  CATAGORIES 2-->
+
+
+        <section id="String">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: rgb(173, 173, 25);">
+                    <div class="col-lg-4 col-md-12">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(String Floral) Nail Art Design for Kids</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Flower Nail Art services
+                            provide full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>The flower nail is great when working on flowers as it acts as a mini turntable. Simply grip
+                            the stem of the flower nail between your finger and thumb and twist to move it around. This
+                            will save you time and make things much easier when decorating your sugar flowers.</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col-lg-4 col-md-12  dip-powder">
+                        <img src="https://media.istockphoto.com/id/1097794590/photo/childrens-multi-colored-manicure-on-nails-with-a-pattern-of-daisies.jpg?s=612x612&w=0&k=20&c=TqhzjZCGvRRvTobDLb2N7ul4_G6ld1lQ8IJA-J949-c="
+                            alt="" width="500px" height="370px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color:rgb(204, 204, 106); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1;   transform: rotate(180deg); border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-G-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://www.sogloss.com/cdn/shop/products/lilac_flower_900x.jpg?v=1541954641"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Lilac Flower Nail
+                                            Wraps</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.pinimg.com/564x/6b/15/09/6b15091b28dccbbb397492bab0fb08d6.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">funky flower
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://www.itakeyou.co.uk/idea/wp-content/uploads/2023/04/spring-nails-8.jpg"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">yin yang flower
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://sonailicious.com/wp-content/uploads/2014/12/spring-nail-art-tutorial.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">String nail
+                                            art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i0.wp.com/www.cindyscutecorner.com/wp-content/uploads/2017/04/IMG_3301-e1492460904223.jpg?resize=3024%2C3024"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">cindy's corner
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.etsystatic.com/21628071/r/il/aade2f/4155506189/il_340x270.4155506189_ar06.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">pink & mint
+                                            leopard </a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;  border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--Halloween for Kids  ART  NAIL  CATAGORIES 3-->
+
+
+        <section id="hall-kids">
+            <div class="container">
+                <div class="row" id="pedicure" style="background-color: rgb(247, 178, 51) ">
+                    <div class="col">
+                        <i class="fa fa-exclamation-circle" style="font-size: 25px; padding-bottom: 20px;"></i>
+                        <h1><b><i>(Halloween) Nail Art Design for Kids</i></b></h1>
+                        <h5 style="font-family: Brush Script MT, Brush Script Std, cursive;">Flower Nail Art services
+                            provide full
+                            restoration for your nails with extra polishing.</h5>
+                        <p>It may not be our daily norm, but Halloween allows everyone to indulge in being a little…
+                            well, extra. You go all out with your kid’s costume. Your kid’s Halloween makeup is next
+                            level. Your house gets stocked with enough candy to feed a small sugar-lovin’ army. So, why
+                            not give Halloween nails for kids a try, too? You’ve gone this far to show off your little
+                            one’s spooky spirit in ways both scary and silly — might as well go for broke!</p>
+                        <button>BOOK NOW &rightarrow;</button>
+                    </div>
+
+                    <div class="col dip-powder">
+                        <img src="https://imgix.bustle.com/scary-mommy/2020/09/28/halloween-nail-art-ideas-kids-1.jpeg?w=740&h=389&fit=crop&crop=faces"
+                            alt="" width="500px" height="370px">
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color:rgb(248, 196, 100); height: 550px; padding-top: 20px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white;  transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-H-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.pinimg.com/564x/2f/b4/4e/2fb44e7e120f6829429740e88f04570b.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">cute black cat
+                                            design</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://tipjunkie.com/wp-content/uploads/2015/09/Halloween-Nail-Art-Ideas.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" >
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Halloween ideas
+                                            Tip Junkie</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://i.etsystatic.com/22079184/r/il/c4e104/4148995496/il_570xN.4148995496_mxtn.jpg"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" >
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Halloween nail
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://cdn.shopify.com/s/files/1/0022/7937/4907/files/360f16b2-8ce3-451c-ab35-70ac048c945e_grande.jpg?v=1538101304"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" >
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Halloween Nail
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU7Z1IImOk8UjA644Ch9UsCPpC1ivYVA81ZtZqg8GdAMTH6aN_8M0x4uA2PYiUtnuuI-E&usqp=CAU"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" >
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">cindy's corner
+                                            design</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box" style="height: 450px; border-radius: 10px;">
+                                <div class="slider-img" style="height: 400px;">
+                                    <img src="https://colormadehappy.com/wp-content/uploads/2021/10/IMG_8255-scaled.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" >
+                                    <div class="type">
+                                        <a href="#"
+                                            style="font-size: px; text-transform: uppercase;">Halloween-Nail-Art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;   border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- More  CATAGORIES -->
+        <section id="more-catagoies">
+            <div class="container-fluid" style="margin-top: 10px;">
+                <div class="content-service">
+                    <h1><b>Don't Miss Out <br>(More Catagories)</b></h1>
+                    <h3><i> Professional Nail Services</i></h3>
+                    <center> <button class="btn-Book">BOOK NOW &RightArrow;</button></center>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="slider"
+                    style="position: relative; background-color:  white; height: 550px; padding-top: 10px;">
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; left:0%; z-index: 1; border: 1px solid white;  transform: rotate(180deg); background-color: white; width: 50px; padding: 5px;">
+                    <ul id="AUTO-E-AutoWidth" class="cs-hidden">
+
+                        <!--               1 product cart box                   -->
+                        <li class="item-a">
+                            <div class="box" style="height: 350px; border-radius: 0px;">
+                                <div class="slider-img" style="height: 300px;">
+                                    <img src="https://i.etsystatic.com/39114757/r/il/f62eaa/5574509992/il_794xN.5574509992_ap7r.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="background-color: rgb(240, 111, 64);">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Disney princess
+                                            nail art</a>
+                                        <!-- <span>No fill options</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               2 product cart box                   -->
+                        <li class="item-b">
+                            <div class="box" style="height: 350px;  border-radius: 0px;">
+                                <div class="slider-img" style="height: 300px;">
+                                    <img src="https://www.momjunction.com/wp-content/uploads/2021/12/20-Super-Cute-And-Easy-Nail-Art-For-Kids.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="background-color:rgb(158, 201, 73);">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;"> floral design For
+                                            Kids</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               3 product cart box                   -->
+                        <li class="item-c">
+                            <div class="box" style="height: 350px;  border-radius: 0px;">
+                                <div class="slider-img" style="height: 300px;">
+                                    <img src="https://i.etsystatic.com/22079184/r/il/25c488/2784788508/il_794xN.2784788508_fht0.jpg"
+                                        alt="">
+
+                                    <!-- <iframe src="https://www.youtube.com/embed/ZJ3j0XVG95o?autoplay=1" title="DIP POWDER FRENCH MANI TUTORIAL - SUPER EASY 🤫" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" ></iframe> -->
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="background-color: rgb(190, 96, 187);">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Gold Glitter Nail
+                                            Wraps</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               4 product cart box                   -->
+                        <li class="item-d">
+                            <div class="box" style="height: 350px;  border-radius: 0px;">
+                                <div class="slider-img" style="height: 300px;">
+                                    <img src="https://i.etsystatic.com/22079184/r/il/41683a/3284349162/il_794xN.3284349162_mqra.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="background-color: rgb(238, 108, 151);">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">String flower
+                                            Art</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               5 product cart box                   -->
+                        <li class="item-e">
+                            <div class="box" style="height: 350px;  border-radius: 0px;">
+                                <div class="slider-img" style="height: 300px;">
+                                    <img src="https://i.etsystatic.com/31621449/r/il/678c5b/5261148419/il_794xN.5261148419_givf.jpg"
+                                        alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="background-color:  rgb(93, 180, 214);">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;">Dolphin | Nail Art
+                                        </a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--               6 product cart box                   -->
+                        <li class="item-f">
+                            <div class="box" style="height: 350px;  border-radius: 0px;">
+                                <div class="slider-img" style="height: 300px;">
+                                    <img src="https://images-na.ssl-images-amazon.com/images/I/51279n0tVkL.jpg" alt="">
+                                    <div class="overlay">
+                                        <a href="#" class="buy-btn">View More</a>
+                                    </div>
+                                </div>
+                                <div class="detail-box" style="background-color:rgb(245, 245, 60);">
+                                    <div class="type">
+                                        <a href="#" style="font-size: px; text-transform: uppercase;"> Colored-Tip for
+                                            kids</a>
+                                        <!-- <span>Noe Arrival</span> -->
+                                    </div>
+                                    <a href="#" class="price">$23</a>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <img src="images/right-arrow.png" alt="" width="30px" class="galleryslider"
+                        style="position: absolute; right:0%; z-index: 1;  border: 1px solid white; background-color: white; width: 50px; padding: 5px;">
+                </div>
+            </div>
+        </section>
+        <!-- More  CATAGORIES -->
+
+
+        <!--ART NAIL ENHANCEMENT For Kids End-->
+
+
+
+        <!-- Gallery -->
+
+        <section id="Gallery">
+
+
+            <div class="container-fluid" style="margin-top: 100px;">
+                <h1><b>NAIL ART (Gallery)</b></h1>
+                <h3><i> Professional Nail Services</i></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusamus rem excepturi quos eum
+                    eaque laudantium dicta suscipit. Accusamus, voluptatem dolores in sunt corrupti iste ipsam
+                    laudantium
+                    ducimus excepturi doloremque.</p>
+                <center> <button class="btn-Book">SEE MORE &downarrow;</button></center>
+            </div>
+
+            <div id="Gallery">
+                <!-- <div class="heading">
+            <h3>photo <span>Gallery</span></h3>
+        </div> -->
+                <div class="box-gallery">
+                    <div class="dream">
+                        <img src="images/1.jpg" alt="">
+                        <img src="images/2.jpg" alt="">
+                        <img src="images/3.jpg" alt="">
+                        <img src="images/4.jpg" alt="">
+                        <img src="images/5.jpg" alt="">
+                    </div>
+
+                    <div class="dream">
+                        <img src="images/6.jpg" alt="">
+                        <img src="images/7.jpg" alt="">
+                        <img src="https://as2.ftcdn.net/v2/jpg/03/97/22/95/1000_F_397229539_Aw8GtlSGO3sfJDEbPc4IPK1iNlBN3x94.jpg"
+                            alt="">
+                        <img src="images/9.jpg" alt="">
+                        <img src="images/10.jpg" alt="">
+                    </div>
+                    <div class="dream">
+                        <img src="https://as1.ftcdn.net/v2/jpg/01/25/80/06/1000_F_125800687_ZXwYEw5eHoH7j8hSumYHgvocvsebT4Ds.jpg"
+                            alt="">
+                        <img src="images/12.jpg" alt="">
+                        <img src="https://t3.ftcdn.net/jpg/04/55/76/76/240_F_455767625_XIWHCFU26vSXrvMuf8liDN8hA9TF5s8I.jpg"
+                            alt="">
+                        <img src="images/14.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Gallery -->
+    </main>
+
+
+
+    <!--  Contact  Form -->
+
+    <section id="contactus">
+        <div class="mt-2">
+            <div class="text-black text-center text-lg-start" style="background-color: rgb(230, 229, 229);">
+                <div class="container p-5">
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4"><b>Deals, drops and trends</b><br>Straight to your inbox
+                            </h5>
+                            <p>Enjoy discounts, find fashion inspiration and discover fresh arrivals with our curated
+                                newsletters.</p>
+
+                            <iframe
+                                src="https://www.google.com/maps/d/embed?mid=10xfmDRnEHAeV68hGzjbc00-F8Ok&hl=en_US&ehbc=2E312F"
+                                width="300" height="380" style="background-color: black;"
+                                class="location-iframe"></iframe>
+                        </div>
+
+
+
+                        <div class="col-lg-8 col-md-12 mb-4 mb-md-0  p-5 "
+                            style="background-color: white; display: px;">
+                            <form action="#">
+                                <label style="border: 1px solid black; padding: 5px;">Your Email Address</label><br>
+                                <input type="email" name="email" placeholder="" required class="email"
+                                    style="border: 1px solid black; padding: 10px;">
+                                <br>
+                                <label style="border: 1px solid black; padding: 5px;">Your Phone Number</label><br>
+                                <input type="number" name="Number" placeholder="" required class="email"
+                                    style="border: 1px solid black; padding: 10px;">
+                                <p class="pt-3"><b>Manage your preferences</b></p>
+                                <p>What are you mostly interested in?</p>
+                                <!-- <input type="radio" name="#" id="Manicures">&nbsp;&nbsp;Manicures<br> -->
+                                <!-- <input type="radio" name="#" id="Manicures">&nbsp;&nbsp;Pedicures<br> -->
+                                <input type="radio" name="#" id="Manicures">&nbsp;&nbsp;Nail Art design for (Elder &
+                                Adult Females)<br>
+                                <input type="radio" name="#" id="Manicures">&nbsp;&nbsp;Nail Art design for (Kids Girls)
+                                <hr>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                                aria-expanded="false" aria-controls="flush-collapseOne"
+                                                style="background-color:white;">
+                                                <b> Content Option</b>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is
+                                                intended to demonstrate the <code>.accordion-flush</code> class. This is
+                                                the first item's accordion body.</div>
+
+                                            <p><b>Catagories of Nail design</b></p>
+                                            <input type="checkbox" name="#" id="" class="mx-3 ">&nbsp;(Halloween)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3 ">&nbsp;(Geometric)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3 ">&nbsp;(Floral)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3 ">&nbsp;(Ombré)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3 ">&nbsp;(Colored-Tip)<br>
+
+                                            <br>
+                                            <hr>
+
+                                            <p><b>Catagories of Nail design for Kids</b></p>
+                                            <input type="checkbox" name="#" id="" class="mx-3">&nbsp;(Halloween)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3">&nbsp;(String Floral)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3">&nbsp;(Cartoon)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3">&nbsp;(Disney
+                                            princess)<br>
+                                            <input type="checkbox" name="#" id="" class="mx-3">&nbsp;(Gold Glitter)<br>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+
+                                <center><button type="submit" name="submit" class="sign-button"><i
+                                            class='far fa-envelope'></i>&nbsp;&nbsp;Sign Me up</button></center>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Contact  Form -->
+
+
+
+
+    <footer>
+        <!-- #6328e0;;-->
+        <div class="mt-5">
+
+            <footer class="text-white text-center text-lg-start" style="background-color:#6328e0;">
+                <!-- container -->
+                <div class="container p-5">
+                    <!---- row-->
+                    <div class="row mt-4">
+                        <!-- column-->
+                        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                            <h5 class="text-uppercase mb-4 "><img src="images/logo.png"
+                                    width="30px">&nbsp;&nbsp;<b>NAILUXE</b></h5>
+
+                            <p>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                voluptatum deleniti atque corrupti.
+                            </p>
+
+                            <p>
+                                Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                                molestias.
+                            </p>
+
+                            <div class="mt-4">
+                                <!-- Facebook -->
+                                <a type="button" class="btn btn-floating btn btn-lg"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <!-- Dribbble -->
+                                <a type="button" class="btn btn-floating btn btn-lg"><i class="fab fa-youtube"></i></a>
+                                <!-- Twitter -->
+                                <a type="button" class="btn btn-floating btn btn-lg"><i class="fab fa-twitter"></i></a>
+                                <!-- Google + -->
+                                <a type="button" class="btn btn-floating btn btn-lg"><i class="fab fa-telegram"></i></a>
+                                <!-- Linkedin -->
+                            </div>
+                        </div>
+                        <!-- column-->
+
+                        <!-- column-->
+                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 mt-4 ">
+
+
+                            <ul class="fa-ul" style="margin-left: 1.65em;">
+                                <li class="mb-3">
+                                    <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">spa
+                                        maripur.karachi</span>
+                                </li>
+                                <li class="mb-3">
+                                    <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                        class="ms-2">nailuxe@gmail.com</span>
+                                </li>
+                                <li class="mb-3">
+                                    <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 03 234
+                                        567 88</span>
+                                </li>
+                                <li class="mb-3">
+                                    <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 03 234
+                                        567 89</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- column-->
+
+                        <!-- column-->
+                        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-white">
+                            <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+                            <table class="table text-center text-white">
+                                <tbody class="font-weight-normal ">
+                                    <tr>
+                                        <td style="background-color: #6328e0; color: white;">Mon - Thu:</td>
+                                        <td style="background-color: #6328e0;  color: white;">8am - 9pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color: #6328e0;  color: white;">Fri - Sat:</td>
+                                        <td style="background-color: #6328e0;  color: white;">8am - 1am</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background-color: #6328e0;  color: white;">Sunday:</td>
+                                        <td style="background-color: #6328e0;  color: white;">9am - 10pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- column-->
+
+                        <div class="col-lg-12 mb-0 mb-md-0  mt-md-4">
+
+                            <div class="footer-nav text-center ">
+                                <!-- Facebook -->
+
+                                <ul>
+                                    <a href="index.html">
+                                        <li>Home</li>
+                                    </a>
+                                    <a href="#Gallery">
+                                        <li>Gallery</li>
+                                    </a>
+                                    <a href="#about">
+                                        <li>About Us</li>
+                                    </a>
+                                    <a href="#contactus">
+                                        <li>Contact</li>
+                                    </a>
+                                    <a href="#more-catagoies">
+                                        <li>More</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- row-->
+                </div>
+
+                <hr>
+                <div class="text-center text-white p-4" style="background-color: black">
+
+                    © 2024
+                    <a class="text-white" href="#">www.Nailuxe.com</a>
+                </div>
+            </footer>
+
+        </div>
+    </footer>
+
+    <!-- Bootsrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- swiper plugin  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- swiper js plugin -->
+    <script src="js/slider.js"></script>
+    <!-- swiper jquery plugin -->
+    <script src="js/sliderjquery.js"></script>
+
+
+
+    <!-- ScrollUp Plugin Jquery -->
+    <script>
+        $(function () {
+            $.scrollUp({
+                scrollText: 'top',
+                scrollImg: true,
+            });
+        });
+    </script>
+
+</body>
+
+</html>
